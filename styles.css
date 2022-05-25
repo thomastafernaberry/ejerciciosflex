@@ -1,0 +1,20 @@
+.box {
+  display: flex;
+  position: absolute;
+  height: 90%;
+  width: 50%;
+  left: 20%;
+  border: 2px black solid;
+  align-items: flex-end;
+  justify-content: stretch;
+  flex-direction: column;
+}
+.item {
+  display: flex;
+  background-color: red;
+  color: white;
+  width: 33%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
